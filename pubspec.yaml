@@ -1,0 +1,33 @@
+name: task2_mobile_getx
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=3.2.5 <4.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: 4.6.6
+  loading_animation_widget: 1.2.0+4
+  faker: 2.1.0
+  fl_chart: 0.66.1
+  connectivity: 3.0.6
+  dio: 5.4.0
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_lints: 3.0.1
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  assets:
+    - assets/json/data.json
+    - assets/image/university-logo.png
+    - assets/image/error-mark.png
+    - assets/image/error-warning.png
+    - assets/image/success-mark.png
+    - assets/image/img-placeholder.webp
+  uses-material-design: true
+
